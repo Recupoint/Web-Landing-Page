@@ -196,9 +196,7 @@ footer .footer p{
     color: aliceblue;
 }
 @media (max-width: 776px){
-    body{
-        overflow: hidden; 
-    }
+ 
     nav{
         padding: 20px;
     }
@@ -245,7 +243,8 @@ footer .footer p{
         margin: 10px 0;
      }
      section{
-         overflow-y: hidden; 
+         overflow-y: hidden;
+         overflow-x: hidden;
          padding: 20px 20px 120px;
      }
      .content{
