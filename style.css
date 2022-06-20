@@ -50,7 +50,7 @@ section{
 }
 
 body{
-overflow: auto;
+overflow: hidden;
 }
 /*header{
     position: absolute;
@@ -198,7 +198,7 @@ footer .footer p{
 @media (max-width: 776px){
     body{
         overflow-x: hidden;
-        overflow-y: scroll;
+        overflow-y: hidden;
     }
     nav{
         padding: 20px;
