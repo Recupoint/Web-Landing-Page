@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="nav-bar bg-white fixed-top">
+        <a href="index.html"><img src="Reçupoint logo.jpg" class="logo" width="97px"> </a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+           <li><a href="LogIn.html">Menu</a></li>
+           <li><a href="index.html">About</a></li>
+           <li><a href="LogIn.html">Contact Us</a></li>
+           <li><a class="log" href="LogIn.html">Log In</a></li>
+           <li><a class="log" href="LogIn.html">Sign Up</a></li>
+        </ul>
+   </nav>
+  <section>
+        <div class="circle"><img src="Image.jpg" width="100px"></div>
+
+      <div class="content">
+         <div  class="textBox">
+             <h2><span>Re&ccedil;upoint</span></h2>
+             <p>Finding the best talents near you...<br><br><span>Coming Soon!!!...</span></br></p>
+             <a href="LogIn.html">Get Started</a>
+         </div>
+         <div class="imgBox">
+             <img src="" class="Recupoint">
+         </div>
+     </div>
+     <ul class="thumb">
+       <li><img src="" width="150px" onclick="imgSlider('')"></li>
+       <li><img src="img9.jpg" width="150px"  onclick="imgSlider('img9.jpg')"></li>
+       <li><img src="img16.jpg" width="150px"  onclick="imgSlider('img16.jpg')"></li>
+     </ul>
+     <ul class="sci">
+       <li><a href="https://web.facebook.com/Re%C3%A7upoint-108532548555438/"><img src="facebook.png" ></a></li>
+       <li><a href="#"><img src="linkedin.png"></a></li>
+       <li><a href="https://twitter.com/recupoint?s=09"><img src="twitter.png" ></a></li>
+     </ul>
+  </section>
+  <footer>
+    <div class="footer">
+        <p>Re&ccedil;upoint 2022 &copy;, Inc. All rights reserved. 
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+      function imgSlider(anything) {
+         document.querySelector('.Recupoint').src =anything;
+      }
+      function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle')
+          var navigation = document.querySelector('.navigation')
+          menuToggle.classList.toggle('active')
+          navigation.classList.toggle('active')
+      }
+
+  </script>
+
+<script src="//code.tidio.co/vgofmbzwfbir9gudnatwuogyuyiehal1.js" async></script>
+
+</body>
+</html>
