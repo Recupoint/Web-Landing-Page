@@ -246,7 +246,7 @@ footer .footer p{
      }
      section{
          overflow: hidden; 
-         padding: 20px 120px 20px 120px;
+         padding: 20px 20px 120px;
      }
      .content{
          flex-direction: column;
