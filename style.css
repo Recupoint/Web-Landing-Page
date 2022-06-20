@@ -245,6 +245,7 @@ footer .footer p{
      section{
          
          overflow-x: hidden;
+         overflow-y: scroll;
          padding: 20px 20px 120px;
      }
      .content{
